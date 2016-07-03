@@ -1,14 +1,10 @@
 package com.inuit;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * Created by b on 7/1/16.
  */
-
-
-
-import java.util.ArrayList;
-import java.util.Arrays;
-
 
 public class Solution {
     public static void main(String[] args) {
@@ -21,6 +17,5 @@ public class Solution {
         ArrayList<Integer> res2 = new ArrayList<Integer>(Arrays.asList(25,93,97,18,71,114,52,48));
         res2 = tto.findTopTwoMax(res2);
         System.out.println(res2.toString());
-
     }
 }

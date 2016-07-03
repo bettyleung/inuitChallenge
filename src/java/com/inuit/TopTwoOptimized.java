@@ -2,8 +2,6 @@ package com.inuit; /**
  * Created by b on 7/1/16.
  */
 
-import org.testng.annotations.Test;
-
 import java.util.ArrayList;
 
 public class TopTwoOptimized {

@@ -24,17 +24,25 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="SolutionTest.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/SolutionTest.java">
+          <file leaf-file-name="SolutionTest.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/com/inuit/SolutionTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-56">
-                  <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#1276#1277#0" expanded="true" />
-                    <element signature="e#1320#1321#0" expanded="true" />
-                    <element signature="e#2144#2145#0" expanded="true" />
-                    <element signature="e#2208#2209#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TopTwoTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/com/inuit/TopTwoTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="195">
+                  <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="15" selection-end-column="9" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -44,15 +52,15 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/java/com/inuit/Solution.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="20" column="98" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="98" />
+                <state relative-caret-position="240">
+                  <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#262#271#0" expanded="true" />
-                    <element signature="e#503#512#0" expanded="true" />
+                    <element signature="e#258#267#0" expanded="true" />
+                    <element signature="e#499#508#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -73,11 +81,22 @@
           <file leaf-file-name="TopTwoOptimized.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/java/com/inuit/TopTwoOptimized.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="21" column="94" selection-start-line="21" selection-start-column="94" selection-end-line="21" selection-end-column="94" />
+                <state relative-caret-position="30">
+                  <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+                  <folding>
+                    <element signature="e#230#239#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TopTwoOptimizedTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/com/inuit/TopTwoOptimizedTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="289">
+                  <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#267#276#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -118,9 +137,12 @@
         <option value="$PROJECT_DIR$/src/java/java/solution/Solution.java" />
         <option value="$PROJECT_DIR$/src/java/java/solution/TopTwoOptimized.java" />
         <option value="$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/builders/JUnit4Builder.class" />
+        <option value="$PROJECT_DIR$/src/test/SolutionTest.java" />
+        <option value="$PROJECT_DIR$/src/test/com/inuit/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/java/com/inuit/TopTwoOptimized.java" />
         <option value="$PROJECT_DIR$/src/java/com/inuit/Solution.java" />
-        <option value="$PROJECT_DIR$/src/test/SolutionTest.java" />
+        <option value="$PROJECT_DIR$/src/test/com/inuit/TopTwoTest.java" />
+        <option value="$PROJECT_DIR$/src/test/com/inuit/TopTwoOptimizedTest.java" />
       </list>
     </option>
   </component>
@@ -197,6 +219,10 @@
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inuit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -240,9 +266,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.inuit" />
       <recent name="test" />
       <recent name="java" />
       <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.inuit" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -506,8 +536,8 @@
       <module name="Inuit" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SolutionTest" />
+      <option name="PACKAGE_NAME" value="com.inuit" />
+      <option name="MAIN_CLASS_NAME" value="com.inuit.SolutionTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea " />
@@ -541,34 +571,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SolutionTest - 2016.07.01 at 18h 43m 36s.xml">
-      <configuration name="SolutionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest - 2016.07.01 at 18h 43m 44s.xml">
-      <configuration name="SolutionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest - 2016.07.01 at 18h 46m 41s.xml">
-      <configuration name="SolutionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest - 2016.07.01 at 18h 51m 52s.xml">
-      <configuration name="SolutionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest - 2016.07.01 at 18h 58m 44s.xml">
-      <configuration name="SolutionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest - 2016.07.01 at 18h 59m 20s.xml">
-      <configuration name="SolutionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest - 2016.07.01 at 18h 59m 59s.xml">
-      <configuration name="SolutionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest - 2016.07.01 at 19h 00m 16s.xml">
-      <configuration name="SolutionTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SolutionTest - 2016.07.01 at 19h 00m 36s.xml">
       <configuration name="SolutionTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SolutionTest - 2016.07.01 at 19h 09m 13s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest - 2016.07.02 at 16h 39m 39s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest - 2016.07.02 at 16h 40m 01s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest - 2016.07.02 at 16h 43m 07s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest - 2016.07.02 at 16h 49m 30s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest - 2016.07.02 at 16h 56m 13s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest - 2016.07.02 at 16h 59m 16s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest - 2016.07.02 at 16h 59m 27s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest - 2016.07.02 at 16h 59m 33s.xml">
       <configuration name="SolutionTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -589,6 +619,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19440353" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2496318" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -598,7 +629,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -678,13 +708,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/com/inuit/TopTwoOptimized.java">
+    <entry file="file://$PROJECT_DIR$/src/test/com/inuit/SolutionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="94" selection-start-line="21" selection-start-column="94" selection-end-line="21" selection-end-column="94" />
+        <state relative-caret-position="0">
+          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#267#276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/inuit/TopTwoOptimized.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding>
+            <element signature="e#230#239#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -701,26 +740,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/com/inuit/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="98" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="98" />
+        <state relative-caret-position="240">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#262#271#0" expanded="true" />
-            <element signature="e#503#512#0" expanded="true" />
+            <element signature="e#258#267#0" expanded="true" />
+            <element signature="e#499#508#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/SolutionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/com/inuit/TopTwoOptimizedTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-56">
-          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+        <state relative-caret-position="289">
+          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1276#1277#0" expanded="true" />
-            <element signature="e#1320#1321#0" expanded="true" />
-            <element signature="e#2144#2145#0" expanded="true" />
-            <element signature="e#2208#2209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/inuit/TopTwoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
