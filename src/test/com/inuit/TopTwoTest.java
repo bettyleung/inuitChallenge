@@ -7,18 +7,15 @@ import static org.junit.Assert.*;
 
 /**
  * Created by b on 7/2/16.
+ * Test to validate TopTwo's class, findTopTwoMax
  */
 
 public class TopTwoTest {
-    /*
-        test if results return expected
-        test if one number is bigger than the other
-        test if input is too small, exception is thrown
-     */
-    TopTwo tt;
-    ArrayList<Integer> list1;
-    ArrayList<Integer> list2;
+    private TopTwo tt;
+    private ArrayList<Integer> list1;
+    private ArrayList<Integer> list2;
 
+    //create 2 lists with the given inputs and retrieve results from TopTwo.findTopTwoMax();
     @Before
     public void setup(){
         tt = new TopTwo();
@@ -27,12 +24,15 @@ public class TopTwoTest {
         list2 = new ArrayList<>(Arrays.asList(25,93,97,18,71,114,52,48));
         list2 = tt.findTopTwoMax(list2);  //[114, 97]
     }
- 
+
+    //test to see if two integers is returned from TopTwo.findTopTwoMax();
     @Test
     public void testTopTwoSize(){
         assertEquals(list1.size(), 2);
     }
 
+
+    //test if [175, 150] is returned from TopTwo.findTopTwoMax(list1);
     @Test
     public void testTopTwoClassList1(){
         int val1 = list1.get(0);
@@ -44,6 +44,7 @@ public class TopTwoTest {
         assertEquals(val1, val2 ); 
     }
 
+    //test if [114, 97] is returned from TopTwo.findTopTwoMax(list2);
     @Test
     public void testTopTwoClassList2(){
         int val1 = list2.get(0);
@@ -53,13 +54,6 @@ public class TopTwoTest {
         val1 = list2.get(1);
         val2 = 97;
         assertEquals(val1, val2 );
-    }
-
-    @Test(expected=ArrayIndexOutOfBoundsException.class)
-    public void testArrayIndexOutOfBoundsException() {
-        list1 = new ArrayList<>(Arrays.asList(5));
-        TopTwo tt = new TopTwo();
-        tt.findTopTwoMax(list1);
     }
 
 }
